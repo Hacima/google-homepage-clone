@@ -1,0 +1,53 @@
+body{
+    min-width: 970px;
+    font-family: arial;
+    font-size:13;
+}
+
+.header{
+    height:30px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header ul{
+    padding-top:13px;
+    list-style-type: none;
+    text-align:right;
+    margin-right: 20px;;
+}
+
+.header li{
+    padding: .4em;
+    list-style-type: none;
+    display:inline;
+}
+
+.header a{
+    text-decoration: none;
+    color:black;
+}
+
+.logo{
+    margin-top:155px;
+    margin-bottom:20px;
+}
+
+.logo img{
+    height: 95px;
+    width: 269px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+form{
+    text-align: center;
+}
+
+.searchBar{
+    width:470px;
+    height:30px;
+    margin-bottom:13px;
+}
