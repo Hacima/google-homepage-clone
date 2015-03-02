@@ -2,6 +2,8 @@ body{
     min-width: 970px;
     font-family: arial;
     font-size:13;
+    margin:0;
+    padding:0;
 }
 
 .header{
@@ -29,9 +31,16 @@ body{
     color:black;
 }
 
+#signIn a{
+    padding:8px 14px 8px 14px;
+    background:#468ae6;
+    color:white;
+    border-radius:3px;
+}
+
 .logo{
     margin-top:155px;
-    margin-bottom:20px;
+    margin-bottom:24px;
 }
 
 .logo img{
@@ -46,8 +55,40 @@ form{
     text-align: center;
 }
 
+input{
+    border:1px solid #cecece;
+}
+
+input:hover{
+    border:1px solid #9a9a9a;
+}
+
+.searchButton{
+    padding: 7;
+    margin-right:15px;
+    background:#f0f0f0;
+    font-size:11;
+    font-weight:bold;
+}
+
+.searchLucky{
+    padding: 7;
+    background:#f0f0f0;
+    font-size:11;
+    font-weight:bold;
+}
+
 .searchBar{
-    width:470px;
+    width:486px;
     height:30px;
-    margin-bottom:13px;
+    margin-bottom:15px;
+}
+
+#footer {
+	width:100%;
+	height:80px;
+	position:absolute;
+	bottom:0;
+	left:0;
+	background:#ee5;
 }
