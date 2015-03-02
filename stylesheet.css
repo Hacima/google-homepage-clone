@@ -20,7 +20,7 @@ body{
     margin-right: 20px;;
 }
 
-.header li{
+li{
     padding: .4em;
     list-style-type: none;
     display:inline;
@@ -84,11 +84,24 @@ input:hover{
     margin-bottom:15px;
 }
 
-#footer {
+.footer {
 	width:100%;
-	height:80px;
+	height:30px;
 	position:absolute;
 	bottom:0;
 	left:0;
-	background:#ee5;
+	background:#dedede;
 }
+
+.leftFooter{
+    float:left;
+}
+
+.rightFooter{
+    float:right;
+}
+
+.footer li{
+
+}
+
